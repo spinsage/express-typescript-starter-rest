@@ -6,7 +6,7 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/spinsage/express-typescript-starter-rest.svg)](http://isitmaintained.com/project/spinsage/express-typescript-starter-rest "Percentage of issues still open")
 
 # Express (Typescript) Rest API Starter
-Boilerplate maven project for bootstrapping development of a Rest API application with Express using Typescript as the programming language.
+Boilerplate project for bootstrapping development of a Rest API application with Express using Typescript as the programming language.
 
 # LICENSE
 **Express Rest API Starter** is Apache 2-licensed.
