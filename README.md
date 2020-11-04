@@ -16,5 +16,3 @@ Boilerplate project for bootstrapping development of a Rest API application with
 We at [**Spinsage Technologies**](https://www.spinsage.com/) would be happy if you send us links to your projects where you are using our code. Just send us an email at opensource@spinsage.com. 
 
 And do let us know if you have any queries or suggestions regarding our work.
-
-Test
