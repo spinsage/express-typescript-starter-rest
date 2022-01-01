@@ -3,6 +3,6 @@
     "exec": "npm run dev:start", 
     "ext": "ts",
     "env": {
-        "PORT": 8080
+        "PORT": 3001
     }
 }
