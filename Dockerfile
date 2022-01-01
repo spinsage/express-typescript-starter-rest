@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16 as buildImg
 WORKDIR /usr/src/app
 COPY package.json ./
 COPY tsconfig.json ./
@@ -11,6 +11,6 @@ FROM node:16
 WORKDIR /usr/src/app
 COPY package.json ./
 RUN npm install 
-COPY --from=0 /usr/src/app/dist .
+COPY --from=buildImg /usr/src/app/dist .
 EXPOSE 3001
 CMD [ "npm", "start" ]
