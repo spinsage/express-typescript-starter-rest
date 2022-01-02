@@ -14,6 +14,6 @@ app.use(express.json());
 app.use(cors());
 app.use("/", appRouter);
 
-app.listen(Number(port), '0.0.0.0', () => {
+app.listen(Number(port), "0.0.0.0", () => {
     console.log("server started at http://localhost: %s", port);
 });
