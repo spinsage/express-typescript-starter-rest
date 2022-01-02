@@ -26,6 +26,7 @@
   "homepage": "https://github.com/spinsage/express-typescript-starter-rest#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.2"
   },
   "devDependencies": {

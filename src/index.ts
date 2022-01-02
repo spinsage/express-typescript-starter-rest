@@ -1,7 +1,9 @@
 import express from "express";
-import bodyParser from "body-parser";
 import cors from "cors";
 import { appRouter } from "./routes";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const port = process.env.PORT || 3001;
 
@@ -12,6 +14,6 @@ app.use(express.json());
 app.use(cors());
 app.use("/", appRouter);
 
-app.listen(port, () => {
+app.listen(Number(port), '0.0.0.0', () => {
     console.log("server started at http://localhost: %s", port);
 });
