@@ -7,3 +7,8 @@ Dockerfile*
 .vscode
 .travis.yml
 README.md
+docker-compose.yml
+request.http
+nodemon.json
+.github
+.env.sample

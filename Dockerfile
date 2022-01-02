@@ -1,4 +1,4 @@
-FROM node:16 as buildImg
+FROM node:16-alpine as buildImg
 WORKDIR /usr/src/app
 COPY package.json ./
 COPY tsconfig.json ./
@@ -7,7 +7,7 @@ COPY src ./src
 RUN npm install
 RUN npm run build
 
-FROM node:16
+FROM node:16-alpine
 WORKDIR /usr/src/app
 COPY package.json ./
 RUN npm install 
