@@ -5,15 +5,58 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/spinsage/express-typescript-starter-rest.svg)](http://isitmaintained.com/project/spinsage/express-typescript-starter-rest "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/spinsage/express-typescript-starter-rest.svg)](http://isitmaintained.com/project/spinsage/express-typescript-starter-rest "Percentage of issues still open")
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/spinsage/community)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Express (Typescript) Rest API Starter
+
 Boilerplate project for bootstrapping development of a Rest API application with Express using Typescript as the programming language.
 
-# LICENSE
-**Express Rest API Starter** is Apache 2-licensed.
-<br><br>
+## Getting Started
 
-# Let us know!
-We at [**Spinsage**](https://www.spinsage.com/) would be happy if you send us links to your projects where you are using our code. Just send us an email at opensource@spinsage.com. 
+### Clone the repository
+
+```console
+git clone https://github.com/spinsage/express-typescript-starter-rest.git
+```
+
+### Install dependencies
+
+```console
+npm install
+```
+
+### Configure environment variables
+
+- Create a .env file by copying .env.sample.
+- Update environment variable values in the .env file as needed.
+
+### Run the application
+
+#### For development
+
+```console
+npm run dev
+```
+
+#### For deployment
+
+```console
+npm run build
+npm run start
+```
+
+#### Within a Docker container
+
+```console
+docker-compose up
+```  
+
+## LICENSE
+
+**Express Rest API Starter** is Apache 2-licensed.  
+
+## Let us know!
+
+We at [**Spinsage**](https://www.spinsage.com/) would be happy if you send us links to your projects where you are using our code. Just send us an email at opensource@spinsage.com.
 
 And do let us know if you have any queries or suggestions regarding our work.
