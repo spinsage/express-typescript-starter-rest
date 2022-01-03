@@ -55,7 +55,7 @@ docker-compose up
 
 **Express Rest API Starter** is Apache 2-licensed.  
 
-# Let us know!
+## Let us know!
 
 We at [**Spinsage**](https://www.spinsage.com/) would be happy if you send us links to your projects where you are using our code. Just send us an email at opensource@spinsage.com.
 
